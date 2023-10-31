@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+</head>
+
+<body>
+
+    <script>
+        const navbar1 = document.createElement("div");
+        navbar1.style.display = "flex";
+        navbar1.style.gap = "20px";
+        navbar1.style.border = "5px solid black";
+        navbar1.style.background = "linear-gradient(#01e26e, #72ffb4)";
+        navbar1.style.maxWidth = "fit-content";
+        navbar1.style.padding = "40px";
+        document.body.appendChild(navbar1);
+
+        const navbar7 = document.createElement("div");
+        navbar7.style.border = "1px solid lightgray";
+        navbar7.style.backgroundColor = "white";
+        navbar7.style.display = "flex";
+        navbar7.style.borderRadius = "20px";
+        navbar1.appendChild(navbar7);
+
+
+        const navbar2 = document.createElement("div");
+        navbar2.style.padding = "16px";
+        navbar7.appendChild(navbar2);
+
+
+        const p1 = document.createElement("p");
+        p1.innerText = "Principal($)";
+        navbar2.appendChild(p1);
+
+        const type = document.createElement("input");
+        type.setAttribute("text", "value");
+        type.setAttribute("plceholder", "enter value");
+        navbar2.appendChild(type);
+
+        const p2 = document.createElement("p");
+        p2.innerText = "Time";
+        navbar2.appendChild(p2);
+
+        const text1 = document.createElement("input");
+        text1.setAttribute("type", "value");
+        text1.setAttribute("plceholder", "enter value");
+        navbar2.appendChild(text1);
+
+        const navbar6 = document.createElement("div");
+        navbar7.appendChild(navbar6);
+
+        const p3 = document.createElement("p");
+
+        p3.innerHTML = "Rate";
+        navbar6.appendChild(p3);
+
+        const text2 = document.createElement("input");
+        text2.setAttribute("type", "value");
+        text2.setAttribute("plceholder", "enter value");
+        navbar6.appendChild(text2);
+
+        const b1 = document.createElement("br");
+        navbar6.appendChild(b1);
+
+        const b2 = document.createElement("br");
+        navbar6.appendChild(b2);
+
+        const button = document.createElement("button");
+        button.innerText = "Year";
+        navbar6.appendChild(button);
+
+        const b3 = document.createElement("br");
+        navbar1.appendChild(b3);
+
+        const b4 = document.createElement("br");
+        navbar1.appendChild(b4);
+
+        const button1 = document.createElement("button");
+        button1.innerHTML = "Calculate";
+        navbar2.appendChild(button1);
+
+        const navbar3 = document.createElement("div");
+        navbar3.style.border = "1px solid lightgray";
+        navbar3.style.maxWidth = "fit-content";
+        navbar3.style.backgroundColor = "linear-gradient(#01e26e, #72ffb4)";
+        navbar1.appendChild(navbar3);
+
+
+        const navbar8 = document.createElement("div");
+        navbar8.style.backgroundColor = "#c6ffe2";
+        navbar8.border = "1px solid white";
+        navbar2.appendChild(navbar8);
+
+        const p4 = document.createElement("p");
+
+        p4.innerHTML = "Principle Amount $1000.00";
+        navbar8.appendChild(p4);
+
+        const p5 = document.createElement("p");
+
+        p5.innerHTML = "Total Interest $1050.00";
+        navbar8.appendChild(p5);
+
+        const p6 = document.createElement("p");
+
+        p6.innerHTML = "Total Amount $50.00";
+        navbar8.appendChild(p6);
+
+        const h1 = document.createElement("h1");
+        h1.style.color = "white";
+        h1.innerHTML = "SIMPLE INTEREST";
+        navbar3.appendChild(h1);
+
+        const h2 = document.createElement("h1");
+        h2.style.backgroundColor = "light black";
+        h2.innerHTML = "CALCULATOR";
+        navbar3.appendChild(h2);
+
+        const h3 = document.createElement("h1");
+        h3.style.backgroundColor = "white";
+        h3.innerHTML = "HTML,CSS& JAVASCRIPT";
+        navbar3.appendChild(h3);
+
+
+    </script>
+
+
+</body>
+
+</html
